@@ -1,6 +1,7 @@
 app:
   title: Scaffolded Backstage App
-  baseUrl: http://localhost:3000
+  baseUrl: https://backstage-233354415663.europe-west2.run.app
+
 
   # Enable all packages by default, this will discover packages from packages/app/package.json
   packages: all
@@ -106,9 +107,9 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: http://localhost:7007
+  baseUrl: https://backstage-233354415663.europe-west2.run.app
   listen: 
-    port: 7007
+    port: 8080
     host: 0.0.0.0
 
     # Uncomment the following host directive to bind to specific interfaces

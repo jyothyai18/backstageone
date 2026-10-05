@@ -118,7 +118,7 @@ backend:
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
-    origin: http://localhost:3000
+    origin: https://backstage-233354415663.europe-west2.run.app
     methods:
       - GET
       - HEAD
